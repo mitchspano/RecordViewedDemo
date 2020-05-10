@@ -131,3 +131,4 @@ There are a few opportunities to improve this component:
 * As mentioned before, there are better ways to refresh Lightning Web Components
 * This approach does not work if the sObject does not have an Owner. So if the object is on the detail side of a Master-Detail relationship, it will not work.
 * Right now we are just logging the error messages to the console. More robust error handling would be nice to add.
+* It would be wise to also implement a trigger action before update when the OwnerId is changed to set the date/time field back to null.
