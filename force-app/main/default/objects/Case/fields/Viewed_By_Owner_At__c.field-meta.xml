@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Viewed_By_Owner_At__c</fullName>
+    <description>This holds the date/time when the owner of the record views the record for the first time.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This holds the date/time when the owner of the record views the record for the first time.</inlineHelpText>
+    <label>Viewed By Owner At</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>
