@@ -2,7 +2,7 @@
 
 This project is a demonstration of how to automatically stamp the date/time of when the owner of a Salesforce record initially views that record. This would particularly useful or important for a service manager who would like to know what is the time between when a user initially opens a case record and when they change the status to "Working" or "In Progress" etc. This component is built to be dynamic, so you can use it on any sObject.
 
-![Stamping Date](images\StampingDate.gif)
+![Stamping Date](images/StampingDate.gif)
 
 
 ## Lightning Web Component
@@ -94,7 +94,7 @@ export default class RecordViewedStamp extends LightningElement {
 
 There is very minimal apex included in this project. The only class we have is the `RecordViewedStampOptions` class which dynamically populates a dynamic picklist to display the list of updateable date/time fields on the particular object they are viewing.
 
-![App Builder](images\AppBuilder.gif)
+![App Builder](images/AppBuilder.gif)
 
 ```java
 public class RecordViewedStampOptions extends VisualEditor.DynamicPicklist {
